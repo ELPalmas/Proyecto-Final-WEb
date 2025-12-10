@@ -1,0 +1,6 @@
+{
+    "name": "vagrant/html",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

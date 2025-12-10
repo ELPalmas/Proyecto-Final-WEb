@@ -1,0 +1,1196 @@
+:root
+{
+    --color-fondo: #D9D9D9;
+    --color-principal: #00b7ff;
+    --color-secundario: #fd3737;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.question_content
+{
+    min-height: 75vh;
+}
+
+body
+{
+    background-color: var(--color-fondo);
+    font-family: 'Lato', sans-serif;
+}
+
+.main_header
+{
+    display:flex;
+    background-color: #00b7ff;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main_content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.main_content img
+{
+    margin: 50px 50px 50px;
+    width: 300px;
+    height: 300px;
+    float:none;
+}
+
+.main_content h2
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 26px;
+    font-style: bold;
+}
+
+.main_content p
+{
+    font-size: 22px;
+    max-width: 800px;
+    text-align: center;
+}
+
+.boton,
+.desactivado
+{
+    /*
+    background-color: var(--color-secundario);
+    color: white;
+    */
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.boton
+{
+    background-color: var(--color-secundario);
+    color: white;
+}
+
+.desactivado
+{
+    background-color: #EA5555;
+    color: white;
+}
+
+.main_footer
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #00b7ff;
+    width: 100%;
+    height: 45vh;
+    color: white;
+}
+
+@media (min-height: 850px) and (max-height: 1050px)
+{
+    .main_footer
+    {
+        height: 35vh;
+    }
+}
+
+.main_footer h3
+{
+    font-style: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 12px 0px 5px 0px;
+}
+
+.main_footer ul
+{
+    padding: 0px 15px 15px 15px;
+    list-style: none;
+    font-family: 'Lato', sans-serif;
+    float: left;
+}
+
+.main_footer li
+{
+    width: 300px;
+}
+
+.back_button
+{
+    border: none;
+    border-radius: 50px;
+    background-color: white;
+    font-weight: 800;
+    width: 50px;
+    height: 50px;
+    margin: 10px 15px 10px 15px;
+}
+
+.login_title
+{
+    text-align: center;
+}
+
+.login_form
+{
+    margin-top: 25px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login_form input[type='text']
+{
+    padding: 5px;
+    width: 70%;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.login_form input[type='password']
+{
+    padding: 5px;
+    width: 70%;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.login_form a
+{
+    margin: 10px;
+    color: var(--color-principal);
+}
+
+input::placeholder
+{
+    color: A6A5A5;
+}
+
+.other_account_option
+{
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.other_account_option a
+{
+    color: var(--color-principal);
+    font-weight: 600;
+}
+
+.t_and_c_advise
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.t_and_c_advise p
+{
+    width: 70%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.t_and_c_advise a
+{
+    color: var(--color-principal);
+    font-style: bold;
+    font-weight: 500;
+}
+
+.registry_form
+{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.registry_form input[type='text']
+{
+    padding: 5px;
+    width: 70%;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.registry_form input[type='password']
+{
+    padding: 5px;
+    width: 70%;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+
+.registry_form a
+{
+    margin: 10px;
+    color: var(--color-principal);
+}
+
+.registry_form button
+{
+    margin-top: 35px;
+}
+
+.ham_menu
+{
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+    background-color: #e9190a;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.home_content
+{
+    min-height: 80vh;
+}
+
+.home_content h2
+{
+    margin: 50px 35px 20px;
+}
+
+.card
+{
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 70%;
+    margin: 30px;
+}
+
+.card .seleccionada  div
+{
+    outline: solid 5px purple;
+    outline-offset: 8px; /* separa el contorno del borde */
+    box-shadow: 0 0 10px rgba(128,0,128,0.7); /* brillo púrpura */
+    background-color: #f5e6ff; /* fondo distinto */
+}
+
+.card img
+{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 0px 30px 0px 0px;
+}
+
+.card div
+{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.create_card
+{
+    padding: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 70%;
+    height: 58px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creation_form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px 30px 30px;
+    text-align: center;
+}
+
+/*
+.creation_form h2
+{
+    width: 80%;
+}
+*/
+
+.creation_progress
+{
+    width: 80%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #FAD642;
+  border-radius: 10px;
+}
+
+.finish_content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    text-align: justify;
+    margin-bottom: 20vh;
+}
+
+.finish_content img
+{
+    width: 80%;
+}
+
+.course_content
+{
+    min-height: 70vh;
+}
+
+.course_content h2
+{
+    margin: 0px 30px;
+}
+
+.course_card
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 25px;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 70%;
+    margin: 30px;
+}
+
+.course_tasks
+{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.completed_task
+{
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-principal);
+    color: white;
+    font-size: 6px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0% 10% 0% 10%;
+}
+
+.incomplete_task
+{
+    border: none;
+    border-radius: 50px;
+    background-color: var(--color-secundario);
+    color: black;
+    font-size: 6px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0% 10% 0% 10%;
+}
+
+.day_progress_bar
+{
+    margin: 5px 5px 5px 0px;
+    width: 100%;
+    min-width: 250px;
+    max-height: 25px;
+}
+
+.task_progress
+{
+    width: 100%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.day_progress_bar progress::-webkit-progress-value {
+  background-color: var(--color-principal);
+  border-radius: 10px;
+}
+.question_content
+{
+    min-height: 75vh;
+}
+.exercise_info
+{
+    padding: 0px 30px 55px 30px;
+}
+
+.exercise_info p
+{
+    color: lightslategray;
+}
+
+.exercise
+{
+    padding: 30px;
+    padding-top: 0px;
+}
+
+.answer_card
+{
+    padding: 15px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 75px;
+    height: 60px;
+    font-size: 28px;
+}
+
+.answer_state
+{
+    min-width: 100%;
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#lenguaje
+{
+    max-width: 50px;
+}
+
+#courseCard
+{
+    display: none;
+}
+
+
+@media (max-width: 650px)
+{
+    .ELiminacionMovil{
+        display: none;
+    }
+    #borrarMovil{
+        display: none;
+    }
+    .main_content
+    {
+        flex-direction: column;
+    }
+
+    .main_content img
+    {
+        margin: 50px 0px 50px 0px;
+    }
+    
+    .main_content h2
+    {
+        max-width: 70%;
+        margin-top: 15px;
+    }
+
+    .main_content p
+    {
+        max-width: 100%;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    
+    .boton,
+    .desactivado
+    {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .main_button_panel
+    {
+        width: 100%;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .main_footer ul
+    {
+        max-width: 80%;
+    }
+
+    /*
+    contenido extra
+    */
+    #lenguage{
+        display: none;
+    }
+    .menu_super_dekstop{
+        display: 
+        none;
+    }
+    .course_content_dekstop{
+        display: none;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 1250px)
+{
+    .ELiminacionMovil{
+        display: none;
+    }
+    #borrarMovil{
+        display: none;
+    }
+    .main_content
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .announcement
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .main_content img
+    {
+        margin: 50px 0px 50px 0px;
+    }
+
+    .main_content p
+    {
+        min-width: 300px;
+        max-height: 80px;
+        text-align: left;
+        margin: 0px 20px 50px 20px;
+    }
+
+    .main_content h2
+    {
+        margin-bottom: 10px;
+    }
+
+    .main_button_panel
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 500px;
+        width: 100%;
+        margin-bottom: 55px;
+    }
+    /*CAMBIO*/
+    .boton,
+    .desactivado
+    {
+        width: 70%;
+        min-width: 35%;
+        height: 60px;
+        font-size: 25px;
+        max-width: 40%;
+    }
+
+    #Login
+    {
+        margin-right: 25px;
+    }
+
+    #Registry
+    {
+        margin-left: 25px;
+    }
+
+    .main_footer
+    {
+        height: 20vh;
+    }
+    /*IMPLEMENTACION*/
+    .login_form input[type='text']
+    {
+        height: 60px;
+        font-size: 25px;
+    }
+    .home_content
+    {
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        flex-direction: column;
+    }
+
+    .home_content h2
+    {
+        width: 75%;
+    }
+
+    .course_content
+    {
+        display: flex;
+        align-items: center;
+        justify-content:start;
+        flex-direction: column;
+    }
+
+    .course_additions
+    {
+        width: 80%;
+    }
+     #lenguage{
+        display: none;
+    }
+    .menu_super_dekstop{
+        display: none;
+    }
+    .menu_super_dekstop .ham_menu{
+        display: flex;
+    }
+    .course_content_dekstop{
+        display: none;
+    }
+
+    .t_and_c_advise
+    {
+        margin-bottom: 20%;
+    }
+}
+
+/*Verion para dekstop*/
+@media (min-width: 1250px)
+{
+    .boton,
+    .desactivado
+    {
+        height: 50px;
+    }
+
+    .main_content
+    {
+        min-height: 70vh;
+    }
+
+    .ham_menu{
+        display: none;
+    }
+    .back_button{
+        font-size: 2rem;
+    }
+    .t_and_c_advise p{
+        text-align: center;
+    }
+    .main_header{
+        width: 96%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 2%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    .main_header img{
+        width: 80px;
+        height: 100%;
+        margin-left: 20px;
+    }
+    #lenguage{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        width: 8rem;
+        padding: 0.5rem;
+    }
+    #lenguage img{
+        margin: 0;
+    }
+    .boton img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .ELiminacionDekstop{
+        display: none;
+    }
+    
+    .main_content{
+        flex-direction: row;
+    }
+    .main_button_panel{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #portada_inicio{
+        width: 30%;
+    }
+    .main_button_panel .boton, .desactivado{
+        margin: 1rem;
+        width: 15rem;
+    }
+    .main_button_panel .ELiminacionMovil{
+        text-align: center;
+    }
+    .main_footer{
+        margin-top: 20vh;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #00b7ff;
+        width: 96%;
+        height: 20vh;
+        color: white;
+        padding: 2%;
+    }
+    /*login*/
+    .alinear_login{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        
+    }
+    .fondo_blanco{
+        background-color:#FFFFFF;
+        border: 1px solid black;
+        width: 40%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 1rem;
+    }
+    
+    .fondo_blanco  h2{
+        font-size: 3rem;
+    }
+    .login_form{
+        width: 80%;
+        gap: 0.5rem;
+        text-align: left;
+        padding: 0% 10% 0% 10%;
+        margin-bottom: 0;
+    }
+    .login_form h3{
+        font-size: 1.5rem;
+        align-self: flex-start;
+    }
+    .login_form input[type='text']{
+        width: 50%;
+        margin-top: 0;
+        height: 2rem;
+    }
+
+    .login_form input[type='password']{
+        width: 50%;
+        margin-top: 0;
+        height: 2rem;
+    }
+
+    .alinear_login .t_and_c_advise{
+        margin-top: 2rem;
+        width: 50%;
+    }
+    .other_account_option
+    {
+        margin:1rem;
+        font-size: 1rem;
+    }
+    .other_account_option a{
+        display: none;
+    }
+    .main_button_panel{
+        width: 50%;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+        padding: 0% 10% 0% 10%;
+    }
+    .main_button_panel .boton, .desactivado{
+        width: 80%;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+    /*Registro*/
+    .alienar_pagina_dekstop{
+          display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        min-height: 100vh; 
+    }
+    .registro_dekstop{
+        background-color:#FFFFFF;
+        border: 1px solid black;
+        width: 40%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 1rem;
+         box-sizing: border-box;
+    }
+
+    .registro_dekstop h2{
+        font-size: 3rem;
+    }
+    .alienar_pagina_dekstop .t_and_c_advise{
+        margin-top: 2rem;
+        width: 50%;
+    }
+    .registry_form{
+        width: 80%;
+        gap: 0.5rem;
+        text-align: left;
+        
+        margin-bottom: 0;
+    }
+    .registry_form h3{
+        font-size: 1.5rem;
+        align-self: flex-start;
+    }
+    .registry_form input[type='text']{
+        width: 100%;
+        margin-top: 0;
+        height: 2rem;
+    }
+
+    .registry_form input[type='password']{
+        width: 100%;
+        margin-top: 0;
+        height: 2rem;
+    }
+
+
+    /*home*/
+
+    .alinear_home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+    .home_content{
+        background-color:#FFFFFF;
+        border: 1px solid black;
+        margin-top: 10%;
+        width: 40%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: top;
+        align-items: center; 
+        padding: 1rem;
+        box-sizing: border-box;
+    }
+    .home_content h2{
+        font-size: 3rem;
+    }
+    .card h1{
+        font-size: 2.5rem;
+    }
+    .card p{
+        font-size: 1.5rem;
+    }
+    .create_card i {
+        font-size: 2.5rem; 
+    }
+    /*creation Page*/
+
+    .alinear_creacion{
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+    .creation_form{
+        background-color:#FFFFFF;
+        border: 1px solid black;
+        width: 40%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 1rem;
+        box-sizing: border-box;
+        margin-bottom: 2rem;
+    }
+    .creation_form h2{
+        font-size: 2rem;
+    }
+    .creation_form h1{
+        font-size: 2.5rem;
+    }
+    .creation_form .boton, .desactivado{
+        width: 80%;
+        margin-bottom: 0;
+        font-size: 1.5rem;
+    }
+    
+    .finish_content h2{
+        margin: 0 3rem;
+        text-align: center;
+    }
+    
+    /*curso en dekstop*/
+    .menu_super_dekstop{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;    
+    }
+    .menu_super_dekstop .boton, .desactivado {
+        display: flex;
+        align-items: center;      
+        justify-content: center;   
+        gap: 0.5rem;               
+        text-align: center;
+        padding: 0.5rem 1rem;
+    }
+    .menu_super_dekstop .ham_menu{
+        display: none;
+    }
+    /*curso view*/
+    .course_content{
+        display: none;
+    }    
+    .course_content_dekstop {
+        display: flex;
+        flex-wrap: wrap;         
+        width: 100vw;           
+        min-height: 100vh;    
+    }
+
+    .course_content_desktop footer
+    {
+        margin-top: 0;
+    }
+    .tareas_pendientes {
+        flex: 0 0 20%;           
+        background-color: #A6A5A5;  
+        padding: 1rem;
+        
+    }
+    .visualizar_tarea {
+        flex: 1;              
+        padding: 1rem;
+        
+    }
+
+    .tarea_individual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        background-color: var(--color-fondo);
+        border: 1px solid black;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+        padding: 1rem;
+    }
+    .tarea_individual .task_progress{
+        width: 80%;
+        align-items: center;
+    }
+    .day_progress_bar {
+        display: flex;
+        justify-content: center;   
+        align-items: center;     
+        width: 100%;    
+        margin-bottom: 0;            
+    }
+
+    .task_progress {
+        width: 80%;              
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 50px;
+        margin-bottom: 2rem; 
+    }
+    .detalles_de_tarea{
+        background-color: #FFFFFF;
+        margin: 3rem;
+        padding: 2rem;
+        border-radius: 50px;
+        border: 2px solid black;
+        min-height:70vh; 
+    }
+    .tarea_dia{
+        display: flex;
+        align-items: center;     
+       
+        gap: 1rem;  
+    }
+    .detalles_de_tarea h1 {
+        margin: 0;
+        font-size: 3rem;       
+        white-space: nowrap;     
+    }
+
+    .tarea_dia .task_progress {
+        width: 35rem;           
+        height: 2rem;
+    }
+
+    .tema_actividad {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-right: 0.5rem;
+    }
+    .detalles_de_tarea h2{
+        font-size: 2rem;
+    }
+    .actividades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .actividades .task_progress {
+        width: 10rem;           
+        height: 3rem;
+        
+    }
+    .actividades .task_progress::-webkit-progress-value {
+        background-color: #00ff00; 
+    }
+
+    /*adasasd*/
+
+    .alinear_preguntas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+    }
+    .question_content{
+        background-color:#FFFFFF;
+        border: 1px solid black;
+        width: 40%;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        padding: 1rem;
+        box-sizing: border-box;
+        margin-bottom: 2rem;
+    }
+
+    .contenido_actividades {
+        border: 2px solid black;
+        margin: 2rem;
+        padding: 2rem;
+        display: flex;
+        flex-wrap: wrap;             
+        justify-content: space-between; 
+        gap: 2rem;                    
+        box-sizing: border-box;
+        border-radius: 25px;
+        background-color: rgba(0, 217, 255, 0.285);
+    }
+
+
+    .tarjetas_actividades {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 1rem;
+        width: 30%;                   
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;       
+        justify-content: space-between;
+        }
+    .tarjeta_actividades_superior {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    .tarjeta_actividades_inferior {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .tarjeta_actividades_inferior .task_progress {
+        width: 5rem;           
+        height: 1.5rem;
+        
+    }
+    .tarjeta_actividades_inferior .task_progress::-webkit-progress-value {
+        background-color: #00ff00; 
+    }
+
+    .answer_card
+    {
+        margin-top: 40px;
+        font-size: 14px;
+    }
+}
